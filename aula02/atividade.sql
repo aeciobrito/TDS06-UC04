@@ -77,4 +77,62 @@ INSERT INTO RegistrosEstacionamento (veiculo_id, vaga_id, data_hora_entrada, dat
 (2, 2, '2026-09-14 14:00:00', '2026-09-14 16:30:00', 15.50), -- Finalizado
 (3, 4, '2026-09-14 19:00:00', NULL, NULL);                  -- Sem data de saída
 
+-- VAGAS OCUPADAS
+SELECT Vagas.*
+FROM RegistrosEstacionamento
+INNER JOIN Vagas ON RegistrosEstacionamento.vaga_id = Vagas.id
+WHERE RegistrosEstacionamento.data_hora_saida IS NULL;
+
+SELECT Vagas.*
+FROM Vagas
+INNER JOIN RegistrosEstacionamento ON RegistrosEstacionamento.vaga_id = Vagas.id
+WHERE RegistrosEstacionamento.data_hora_saida IS NULL;
+
+SELECT *
+FROM Vagas
+WHERE id IN (
+    SELECT vaga_id
+    FROM RegistrosEstacionamento
+    WHERE data_hora_saida IS NULL
+);
+
+-- VAGAS VAZIAS:
+SELECT *
+FROM Vagas
+WHERE id NOT IN (
+    SELECT vaga_id
+    FROM RegistrosEstacionamento
+    WHERE data_hora_saida IS NULL
+);
+
+SELECT Vagas.*
+FROM Vagas
+LEFT JOIN RegistrosEstacionamento re ON re.vaga_id = Vagas.id
+AND re.data_hora_saida IS NULL
+WHERE re.ID IS NULL;
+
+
+
 SELECT * FROM RegistrosEstacionamento;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
