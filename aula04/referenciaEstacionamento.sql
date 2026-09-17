@@ -1,0 +1,37 @@
+-- CRIAÇÃO DE TABELAS
+CREATE TABLE IF NOT EXISTS Clientes
+(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    cpf TEXT NOT NULL UNIQUE,
+    telefone TEXT
+);
+
+CREATE TABLE IF NOT EXISTS Veiculos
+(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    cliente_id INTEGER NOT NULL,
+    placa TEXT NOT NULL UNIQUE,
+    modelo TEXT NOT NULL,
+    cor TEXT,
+    FOREIGN KEY (cliente_id) REFERENCES Clientes (id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS Vagas
+(
+    id  INTEGER PRIMARY KEY AUTOINCREMENT,
+    localizacao TEXT NOT NULL,
+    tipo TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS RegistrosEstacionamento
+(
+    id  INTEGER PRIMARY KEY AUTOINCREMENT,
+    veiculo_id INTEGER NOT NULL,
+    vaga_id INTEGER NOT NULL,
+    data_hora_entrada TEXT NOT NULL,
+    data_hora_saida TEXT,
+    valor_total REAL,
+    FOREIGN KEY (veiculo_id) REFERENCES Veiculos (id) ON DELETE RESTRICT,
+    FOREIGN KEY (vaga_id) REFERENCES Vagas (id) ON DELETE RESTRICT
+);
