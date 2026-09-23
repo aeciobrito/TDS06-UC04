@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|c:\\users\\aecio.mbrito\\documents\\uc04\\aula06\\estacionamentoweb\\estacionamentoweb\\controllers\\registrosestacionamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|solutionrelative:estacionamentoweb\\controllers\\registrosestacionamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|c:\\users\\aecio.mbrito\\documents\\uc04\\aula06\\estacionamentoweb\\estacionamentoweb\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|solutionrelative:estacionamentoweb\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|c:\\users\\aecio.mbrito\\documents\\uc04\\aula06\\estacionamentoweb\\estacionamentoweb\\controllers\\vagascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|solutionrelative:estacionamentoweb\\controllers\\vagascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|c:\\users\\aecio.mbrito\\documents\\uc04\\aula06\\estacionamentoweb\\estacionamentoweb\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|solutionrelative:estacionamentoweb\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|c:\\users\\aecio.mbrito\\documents\\uc04\\aula06\\estacionamentoweb\\estacionamentoweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|solutionrelative:estacionamentoweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|c:\\users\\aecio.mbrito\\documents\\uc04\\aula06\\estacionamentoweb\\estacionamentoweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|solutionrelative:estacionamentoweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|c:\\users\\aecio.mbrito\\documents\\uc04\\aula06\\estacionamentoweb\\estacionamentoweb\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|solutionrelative:estacionamentoweb\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|c:\\users\\aecio.mbrito\\documents\\uc04\\aula06\\estacionamentoweb\\estacionamentoweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|solutionrelative:estacionamentoweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|c:\\users\\aecio.mbrito\\documents\\uc04\\aula06\\estacionamentoweb\\estacionamentoweb\\models\\estacionamentodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D05620-F5D4-4AE6-A9A1-4D47D939162D}|EstacionamentoWeb\\EstacionamentoWeb.csproj|solutionrelative:estacionamentoweb\\models\\estacionamentodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrosEstacionamentosController.cs",
+              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Controllers\\RegistrosEstacionamentosController.cs",
+              "RelativeDocumentMoniker": "EstacionamentoWeb\\Controllers\\RegistrosEstacionamentosController.cs",
+              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Controllers\\RegistrosEstacionamentosController.cs",
+              "RelativeToolTip": "EstacionamentoWeb\\Controllers\\RegistrosEstacionamentosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T00:26:54.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VeiculosController.cs",
+              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Controllers\\VeiculosController.cs",
+              "RelativeDocumentMoniker": "EstacionamentoWeb\\Controllers\\VeiculosController.cs",
+              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Controllers\\VeiculosController.cs",
+              "RelativeToolTip": "EstacionamentoWeb\\Controllers\\VeiculosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T00:25:53.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VagasController.cs",
+              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Controllers\\VagasController.cs",
+              "RelativeDocumentMoniker": "EstacionamentoWeb\\Controllers\\VagasController.cs",
+              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Controllers\\VagasController.cs",
+              "RelativeToolTip": "EstacionamentoWeb\\Controllers\\VagasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T00:25:03.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "EstacionamentoWeb\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "EstacionamentoWeb\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T00:24:19.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EstacionamentoWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EstacionamentoWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T00:22:17.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Program.cs",
+              "RelativeDocumentMoniker": "EstacionamentoWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Program.cs",
+              "RelativeToolTip": "EstacionamentoWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T00:21:07.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "EstacionamentoWeb\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Models\\Cliente.cs",
+              "RelativeToolTip": "EstacionamentoWeb\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T00:20:39.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EstacionamentoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Models\\EstacionamentoDbContext.cs",
+              "RelativeDocumentMoniker": "EstacionamentoWeb\\Models\\EstacionamentoDbContext.cs",
+              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\Models\\EstacionamentoDbContext.cs",
+              "RelativeToolTip": "EstacionamentoWeb\\Models\\EstacionamentoDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T00:20:05.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "EstacionamentoWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\aecio.mbrito\\Documents\\UC04\\aula06\\EstacionamentoWeb\\EstacionamentoWeb\\appsettings.json",
+              "RelativeToolTip": "EstacionamentoWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-23T00:19:10.951Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
