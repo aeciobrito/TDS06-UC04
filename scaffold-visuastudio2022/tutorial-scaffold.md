@@ -13,7 +13,7 @@ Este tutorial orienta como gerar uma aplicação Web conectada a um banco de dad
 4. [Passo 3: Instalação dos Pacotes NuGet Necessários](#passo-3-instalação-dos-pacotes-nuget-necessários)
 5. [Passo 4: Configuração da String de Conexão (appsettings.json)](#passo-4-configuração-da-string-de-conexão-appsettingsjson)
 6. [Passo 5: Engenharia Reversa do Banco (Scaffold-DbContext)](#passo-5-engenharia-reversa-do-banco-scaffold-dbcontext)
-7. [Passo 6: Registro do Banco de Dados no Program.cs](#passo-6-registro-do-banco-de-dados-no-programcs)
+7. [Passo 6: Registro do Banco de Dados e Ajuste de Validação no Program.cs](#passo-6-registro-do-banco-de-dados-e-ajuste-de-validação-no-programcs)
 8. [Passo 7: Geração Automática das Telas e Controladores (Scaffold)](#passo-7-geração-automática-das-telas-e-controladores-scaffold)
 9. [Passo 8: Execução e Testes Práticos no Navegador](#passo-8-execução-e-testes-práticos-no-navegador)
 
@@ -212,7 +212,7 @@ Scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;Database=EstacionamentoDB;Trus
 
 ---
 
-## Passo 6: Registro do Banco de Dados no Program.cs
+## Passo 6: Registro do Banco de Dados e Ajuste de Validação no Program.cs
 
 1. No Gerenciador de Soluções, abra o arquivo `Program.cs`.
 2. No topo do arquivo, adicione as referências aos pacotes e aos modelos:
@@ -222,7 +222,18 @@ using Microsoft.EntityFrameworkCore;
 using EstacionamentoWeb.Models;
 ```
 
-3. Logo abaixo da linha `var builder = WebApplication.CreateBuilder(args);`, adicione a injeção do banco:
+3. Localize a chamada `builder.Services.AddControllersWithViews();` e adicione a opção `SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true`. Isso é fundamental no .NET 8 para evitar que o validador do ASP.NET Core barre o cadastro/edição de entidades com chave estrangeira:
+
+```csharp
+builder.Services.AddControllersWithViews(options =>
+{
+    options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true;
+});
+```
+
+> ⚠️ **Atenção Pedagógica (.NET 8 e Validação de Associações)**: No .NET 8, os projetos vêm com `<Nullable>enable</Nullable>` ativado. Com isso, o EF Core gera as entidades de navegação como propriedades não-nulas (`public virtual Cliente Cliente { get; set; } = null!;`). Sem essa opção configurada, o ASP.NET Core considera a entidade de navegação obrigatória (`[Required]`). Como os formulários de cadastro e edição enviam apenas o ID da chave estrangeira (`ClienteId`, `VagaId`) e não o objeto inteiro, o formulário falharia na validação silenciosamente ao tentar salvar Veículos ou Registros de Estacionamento.
+
+4. Logo abaixo, adicione a leitura da string de conexão e a injeção de dependência do contexto do banco:
 
 ```csharp
 var connectionString = builder.Configuration.GetConnectionString("EstacionamentoWebContext");

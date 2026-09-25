@@ -4,7 +4,10 @@ using EstacionamentoWeb.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(options =>
+{
+    options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true;
+});
 
 var connectionString = builder.Configuration.GetConnectionString("EstacionamentoWebContext");
 builder.Services.AddDbContext<EstacionamentoDbContext>(options =>
