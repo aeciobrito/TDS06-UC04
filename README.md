@@ -91,3 +91,10 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ClassDbContext>(options =>
     options.UseSqlServer(connectionString));
 ```
+
+
+---
+
+## Referencias de Estudos
+
+[Curso do Nelio Alves na Udemy](https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/)
