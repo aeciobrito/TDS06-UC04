@@ -1,0 +1,19 @@
+USE MASTER;
+GO
+
+-- USUÁRIO DO SERVIDOR DE BANCO DE DADOS
+CREATE LOGIN login_atendente WITH PASSWORD = 'Senha@123', CHECK_POLICY = ON;
+GO
+
+USE PizzariaDB;
+GO
+
+-- USUÁRIO DE INSTANCIA DE BANCO DE DADOS
+CREATE USER usr_atendente FOR LOGIN login_atendente;
+GO
+
+-- VERIFICAR OS USUÁRIOS HOJE CADASTRADOS NO BANCO
+SELECT name, type_desc, create_date
+FROM sys.database_principals
+WHERE type IN ('S', 'U');
+GO
