@@ -1,14 +1,3 @@
-### SQL Injection e Superfície de Ataque
-
-* **O que é Superfície de Ataque?** É a soma de todas as brechas por onde dados podem entrar ou sair (portas abertas de rede, logins sem senha, privilégios excessivos, scripts dinâmicos).
----
-
-# 2. Exemplo de Referência Completo: `EstacionamentoDB`
-
-Utilize este modelo com o `EstacionamentoDB` para demonstrar a estrutura exigida na atividade prática do `HospedagemDB`.
-
----
-
 ## Documento Técnico: Roteiro de Segurança (`EstacionamentoDB`)
 
 ### 1. Identificação dos Ativos Críticos
