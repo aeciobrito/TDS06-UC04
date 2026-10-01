@@ -1,0 +1,28 @@
+/*
+NO "EstacionamentoDB", CRIAR A ROLE "Role_OperadorPatio"
+ 
+(ok)PERMITIR SELECT NA TABELA DE VAGAS 
+(ok)PERMITIR EXECUTE NAS PROCEDURES DE REGISTRAR ENTRADA E REGISTRAR SAÍDA DE VEÍCULO
+BLOQUEAR OPERAÇÕES DROP, ALTER E DELTE NA TABELA "RegistroEstacionamento"
+ 
+CRIAR A ROLE "RoleAuditor"
+APENAS LEITURA (SELECT) EM TODAS AS TABELAS, SEM PERMISSÃO DE ESCRITA
+*/
+
+USE EstacionamentoDB;
+GO
+
+CREATE ROLE Role_OperadorPatio;
+GO
+
+GRANT SELECT ON Vagas TO Role_OperadorPatio;
+GRANT EXECUTE ON sp_RegistrarEntradaVeiculo TO Role_OperadorPatio;
+GRANT EXECUTE ON sp_RegistrarSaidaVeiculo   TO Role_OperadorPatio;
+
+-- VERIFICAR QUESTÃO DE 'DROP' NÃO PODER ESTAR EM 'DENY' NESSE COMANDO
+DENY DELETE, ALTER ON RegistrosEstacionamento TO Role_OperadorPatio;
+
+CREATE ROLE Role_Auditor;
+GO
+
+GRANT SELECT TO Role_Auditor;
